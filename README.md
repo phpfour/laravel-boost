@@ -35,9 +35,11 @@ Next, install the MCP server and coding guidelines:
 php artisan boost:install
 ```
 
+Feel free to add the generated MCP configuration file, guideline files (`.mcp.json`, `CLAUDE.md`, `AGENTS.md`, `junie/`, etc.) and `boost.json` configuration file to your application's `.gitignore` as these files are automatically re-generated when running `boost:install` and `boost:update`.
+
 Once Laravel Boost has been installed, you're ready to start coding with Cursor, Claude Code, or your AI agent of choice.
 
-### Setup Your Code Editors
+### Set up Your Code Editors
 
 #### PhpStorm
 
@@ -64,6 +66,18 @@ Once Laravel Boost has been installed, you're ready to start coding with Cursor,
 1. Claude support is typically enabled automatically, but if you find it isn't
 2. Open a shell in the project's directory
 3. Run `claude mcp add -s local -t stdio laravel-boost php artisan boost:mcp`
+
+#### Codex
+
+1. Codex support is typically enabled automatically, but if you find it isn't
+2. Open a shell in the project's directory
+3. Run `codex mcp add -- php artisan boost:mcp`
+
+#### Gemini
+
+1. Gemini support is typically enabled automatically, but if you find it isn't
+2. Open a shell in the project's directory
+3. Run `gemini mcp add -s project -t stdio laravel-boost php artisan boost:mcp`
 
 ## Available MCP Tools
 
@@ -95,7 +109,6 @@ Laravel Boost includes AI guidelines for the following packages and frameworks. 
 | Core & Boost | core |
 | Laravel Framework | core, 10.x, 11.x, 12.x |
 | Livewire | core, 2.x, 3.x |
-| Filament | core, 4.x |
 | Flux UI | core, free, pro |
 | Herd | core |
 | Inertia Laravel | core, 1.x, 2.x |

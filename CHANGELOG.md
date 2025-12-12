@@ -1,6 +1,112 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/boost/compare/v1.6.0...main)
+## [Unreleased](https://github.com/laravel/boost/compare/v1.8.5...main)
+
+## [v1.8.5](https://github.com/laravel/boost/compare/v1.8.4...v1.8.5) - 2025-12-08
+
+### What's Changed
+
+* PHP 8.5 support by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/368
+
+**Full Changelog**: https://github.com/laravel/boost/compare/v1.8.4...v1.8.5
+
+## [v1.8.4](https://github.com/laravel/boost/compare/v1.8.3...v1.8.4) - 2025-12-05
+
+### What's Changed
+
+* Update Boost for `laravel/mcp` ^0.4.1 compatibility by [@xybr-dev](https://github.com/xybr-dev) in https://github.com/laravel/boost/pull/375
+
+### New Contributors
+
+* [@xybr-dev](https://github.com/xybr-dev) made their first contribution in https://github.com/laravel/boost/pull/375
+
+**Full Changelog**: https://github.com/laravel/boost/compare/v1.8.3...v1.8.4
+
+## [v1.8.3](https://github.com/laravel/boost/compare/v1.8.2...v1.8.3) - 2025-11-26
+
+### What's Changed
+
+* Update FluxUI component list by [@rzv-me](https://github.com/rzv-me) in https://github.com/laravel/boost/pull/369
+
+### New Contributors
+
+* [@rzv-me](https://github.com/rzv-me) made their first contribution in https://github.com/laravel/boost/pull/369
+
+**Full Changelog**: https://github.com/laravel/boost/compare/v1.8.2...v1.8.3
+
+## [v1.8.2](https://github.com/laravel/boost/compare/v1.8.1...v1.8.2) - 2025-11-20
+
+### What's Changed
+
+* tests: adds missing opencode in tests by [@MrPunyapal](https://github.com/MrPunyapal) in https://github.com/laravel/boost/pull/361
+* Add Gemini by [@iruoy](https://github.com/iruoy) in https://github.com/laravel/boost/pull/360
+* Extend Codex functionality with MCP config by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/364
+* Update README.md by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/365
+* Downgrade guzzle version to ^7.9 by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/356
+* Put user-defined guidelines at the top by [@phpfour](https://github.com/phpfour) in https://github.com/laravel/boost/pull/332
+
+### New Contributors
+
+* [@iruoy](https://github.com/iruoy) made their first contribution in https://github.com/laravel/boost/pull/360
+
+**Full Changelog**: https://github.com/laravel/boost/compare/v1.8.1...v1.8.2
+
+## [v1.8.1](https://github.com/laravel/boost/compare/v1.8.0...v1.8.1) - 2025-11-18
+
+### What's Changed
+
+* Add Sail Support in Guidelines by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/329
+* Fix CallToolWithExecutor Error by [@RedArchon](https://github.com/RedArchon) in https://github.com/laravel/boost/pull/359
+
+### New Contributors
+
+* [@RedArchon](https://github.com/RedArchon) made their first contribution in https://github.com/laravel/boost/pull/359
+
+**Full Changelog**: https://github.com/laravel/boost/compare/v1.8.0...v1.8.1
+
+## [v1.8.0](https://github.com/laravel/boost/compare/v1.7.1...v1.8.0) - 2025-11-11
+
+### What's Changed
+
+* Ignore MCP config update in boost:update by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/334
+* Update wayfinder guidelines by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/343
+* Remove Filament guidelines by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/349
+
+**Full Changelog**: https://github.com/laravel/boost/compare/v1.7.1...v1.8.0
+
+## [v1.7.1](https://github.com/laravel/boost/compare/v1.7.0...v1.7.1) - 2025-11-05
+
+### What's Changed
+
+* [1.x] Fix: WSL by changing 'wsl' to 'wsl.exe' in MCP config by [@MrPunyapal](https://github.com/MrPunyapal) in https://github.com/laravel/boost/pull/338
+* Add wayfinder guidelines by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/327
+* Update Readme about .gitignore files by [@chinmaypurav](https://github.com/chinmaypurav) in https://github.com/laravel/boost/pull/307
+* Update Tailwind v4+ guidelines  by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/321
+
+### New Contributors
+
+* [@MrPunyapal](https://github.com/MrPunyapal) made their first contribution in https://github.com/laravel/boost/pull/338
+* [@chinmaypurav](https://github.com/chinmaypurav) made their first contribution in https://github.com/laravel/boost/pull/307
+
+**Full Changelog**: https://github.com/laravel/boost/compare/v1.7.0...v1.7.1
+
+## [v1.7.0](https://github.com/laravel/boost/compare/v1.6.0...v1.7.0) - 2025-11-04
+
+### What's Changed
+
+* feat: add opencode support by [@calebdw](https://github.com/calebdw) in https://github.com/laravel/boost/pull/88
+* Fix Invalid Argument Error with MCP tool by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/323
+* [1.x] Refactor to use first-class callable by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/315
+* [1.x] Sail Support for Boost by [@NIAN97](https://github.com/NIAN97) in https://github.com/laravel/boost/pull/303
+* Remove duplicate code in GuidelineComposer.php by [@phpfour](https://github.com/phpfour) in https://github.com/laravel/boost/pull/331
+* Handle `@volt` directives in GuidelineComposer by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/boost/pull/333
+
+### New Contributors
+
+* [@NIAN97](https://github.com/NIAN97) made their first contribution in https://github.com/laravel/boost/pull/303
+* [@phpfour](https://github.com/phpfour) made their first contribution in https://github.com/laravel/boost/pull/331
+
+**Full Changelog**: https://github.com/laravel/boost/compare/v1.6.0...v1.7.0
 
 ## [v1.6.0](https://github.com/laravel/boost/compare/v1.5.1...v1.6.0) - 2025-10-28
 
